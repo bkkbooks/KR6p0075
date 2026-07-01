@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6p0075/v1
+canonical_location: https://kanripo.org/bkk/KR6p0075/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 往生禮讚偈
+  identifiers:
+    alt_id:
+    - T47n1980
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T47/T47n1980.xml
+    old_id: T47n1980
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 原
+  label: 原
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0075_000.yaml, hash: 'sha256:b7a8a95a688c40c75de6f37e143964c9b2a71428c8d5ab7de4a16737b5212680'}
+  - {seq: 1, filename: KR6p0075_001.yaml, hash: 'sha256:1e06fa340848d9e3cea28a98038fa6b0f1448c87be1a1dcbacad66d802ed6b0a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0075_001.markers.yaml, hash: 'sha256:ae14931763faae7949c2b10c436f06e1e8eaca17a3e18d0821bc092c4267b4b2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0075_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11081
+  label: 往生禮讚偈一卷
+  type: juan
+  level: 1
+hash: sha256:603435685b5e0f2419a5373fcb81ded0503e737c03b7618f30d33d06e0f66bc5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
