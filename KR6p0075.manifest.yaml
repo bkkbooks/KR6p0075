@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0075_000.yaml, hash: 'sha256:b7a8a95a688c40c75de6f37e143964c9b2a71428c8d5ab7de4a16737b5212680'}
-  - {seq: 1, filename: KR6p0075_001.yaml, hash: 'sha256:1e06fa340848d9e3cea28a98038fa6b0f1448c87be1a1dcbacad66d802ed6b0a'}
+  - {seq: 1, filename: KR6p0075_001.yaml, hash: 'sha256:67eb9a40f0cf5de5601f7b393ea5fb14214a3b0c5e4510033a75cc4099f2b610'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6p0075_001.markers.yaml, hash: 'sha256:ae14931763faae7949c2b10c436f06e1e8eaca17a3e18d0821bc092c4267b4b2'}
+  - {seq: 0, role: markers, filename: assets/KR6p0075_000.markers.yaml, hash: 'sha256:753fdef8dc966f7c051145aa5a746108cdac91a3e8569b7d18df4f9a03ae95c7'}
+  - {seq: 1, role: markers, filename: assets/KR6p0075_001.markers.yaml, hash: 'sha256:3bc98efcb387853bc56c9daefeb93071b117daf1f737991cb9c1627a6f644d6a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 往生禮讚偈一卷
   type: juan
   level: 1
-hash: sha256:603435685b5e0f2419a5373fcb81ded0503e737c03b7618f30d33d06e0f66bc5
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c025d3d99952b75d35b6a0c6bf142d95d8552693d77330614112b5b205e45f9c
